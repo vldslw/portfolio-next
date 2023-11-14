@@ -1,7 +1,17 @@
-import { Inter } from "next/font/google";
+import { Golos_Text, Sofia_Sans } from "next/font/google";
 import "./globals.css";
+import { Header } from "@/components/Header";
 
-const inter = Inter({ subsets: ["latin"] });
+const golos = Golos_Text({
+  subsets: ["latin"],
+  variable: "--font-golos",
+  display: "swap",
+});
+const sofia = Sofia_Sans({
+  subsets: ["latin"],
+  variable: "--font-sofia",
+  display: "swap",
+});
 
 export const metadata = {
   title: "Vladislav Pavlov",
@@ -10,8 +20,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className={`${golos.variable} ${sofia.variable}`}>
+      <body>
+        <Header />
+        {children}
+      </body>
     </html>
   );
 }
