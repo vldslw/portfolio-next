@@ -108,7 +108,7 @@
 }
 
 @media screen and (min-width: 1282px) {
-  .cover {
+  .container {
     padding: 78px 200px;
   }
 }
@@ -169,7 +169,7 @@
 }
 
 @media screen and (max-width: 800px) {
-  .cover {
+  .container {
     padding: 78px 50px;
   }
 
@@ -193,7 +193,7 @@
 }
 
 @media screen and (max-width: 418px) {
-  .cover {
+  .container {
     padding: 45px 28px 33px;
     flex-direction: column;
   }
