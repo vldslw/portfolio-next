@@ -1,6 +1,6 @@
 import { Golos_Text, Sofia_Sans } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/Header";
+import { Header } from "@/components/Header/Header";
 
 const golos = Golos_Text({
   subsets: ["latin"],
