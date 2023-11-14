@@ -1,3 +1,9 @@
+import { Cover } from "@/components/Cover/Cover";
+
 export default function Home() {
-  return <main></main>;
+  return (
+    <main>
+      <Cover />
+    </main>
+  );
 }
