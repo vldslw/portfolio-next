@@ -1,5 +1,5 @@
-export const getCoverData = async () => {
-  const response = await fetch(`${process.env.BASE_URL}/api/cover`, {
+export const getLandingData = async () => {
+  const response = await fetch(`${process.env.BASE_URL}/api/landing`, {
     next: {
       revalidate: 60,
     },

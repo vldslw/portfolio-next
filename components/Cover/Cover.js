@@ -2,14 +2,14 @@ import styles from "./Cover.module.css";
 import Image from "next/image";
 import profilePic from "../../public/profilePic.png";
 
-const Cover = ({ coverData }) => {
+const Cover = ({ data }) => {
   return (
     <section className={styles.container}>
       <div className={styles.descblock}>
-        <h2 className={styles.subhead}>{coverData.subheading}</h2>
-        <h1 className={styles.head}>{coverData.heading}</h1>
-        <p className={styles.text}>{coverData.desc}</p>
-        <a href={coverData.link} className={styles.button} target="_blank">
+        <h2 className={styles.subhead}>{data.subheading}</h2>
+        <h1 className={styles.head}>{data.heading}</h1>
+        <p className={styles.text}>{data.desc}</p>
+        <a href={data.gitlink} className={styles.button} target="_blank">
           My GitHub
         </a>
       </div>
