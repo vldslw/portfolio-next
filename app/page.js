@@ -1,12 +1,14 @@
 import { Cover } from "@/components/Cover/Cover";
-import { getCoverData } from "@/services/getData";
+import { Stack } from "@/components/Stack/Stack";
+import { getLandingData } from "@/services/getData";
 
 export default async function Home() {
-  const coverData = (await getCoverData())[0];
+  const landingData = (await getLandingData())[0];
 
   return (
     <main>
-      <Cover coverData={coverData} />
+      <Cover data={landingData} />
+      <Stack data={landingData} />
     </main>
   );
 }
