@@ -1,4 +1,5 @@
 import { Cover } from "@/components/Cover/Cover";
+import { Stack } from "@/components/Stack/Stack";
 import { getLandingData } from "@/services/getData";
 
 export default async function Home() {
@@ -7,6 +8,7 @@ export default async function Home() {
   return (
     <main>
       <Cover data={landingData} />
+      <Stack data={landingData} />
     </main>
   );
 }

@@ -1,6 +1,6 @@
 import styles from "./Cover.module.css";
 import Image from "next/image";
-import profilePic from "../../public/profilePic.png";
+import profilePic from "@/public/profilePic.png";
 
 const Cover = ({ data }) => {
   return (
