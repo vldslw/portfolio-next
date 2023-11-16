@@ -1,0 +1,34 @@
+.container {
+  padding: 25px 60px 25px 45px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-family: var(--font-sofia);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.link {
+  margin: 0 0 0 50px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+@media screen and (min-width: 1282px) {
+  .container {
+    padding: 25px 120px 25px 145px;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .container {
+    justify-content: center;
+  }
+  .navigation {
+    display: none;
+  }
+}

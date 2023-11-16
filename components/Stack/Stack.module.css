@@ -1,0 +1,29 @@
+.container {
+  margin: 0;
+  padding: 65px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+}
+
+@media screen and (min-width: 1282px) {
+  .container {
+    padding: 65px 200px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 65px 50px;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .container {
+    padding: 65px 28px;
+  }
+}
