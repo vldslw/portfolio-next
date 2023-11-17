@@ -1,0 +1,69 @@
+.container {
+  width: 100%;
+  margin: 0;
+  background-color: #f3f3f3;
+  overflow: hidden;
+}
+
+.image {
+  object-fit: cover;
+}
+
+.link {
+  width: 100%;
+  height: 61%;
+  text-decoration: none;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.desc {
+  padding: 50px 20px 20px 45px;
+}
+
+.desclower {
+  display: flex;
+  justify-content: space-between;
+}
+
+.giturl {
+  margin-left: 20px;
+  align-self: flex-end;
+  line-height: 0;
+  cursor: pointer;
+}
+
+.giturl:hover {
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.giticon {
+  width: 36px;
+  height: 37px;
+}
+
+.link:hover {
+  width: 100%;
+  opacity: 0.8;
+  transition: opacity 0.3s;
+}
+
+.title {
+  margin: 0 25px 12px 0;
+  font-family: var(--font-sofia);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 42px;
+}
+
+.text {
+  margin: 0;
+  max-width: 265px;
+  min-height: 54px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+}

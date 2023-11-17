@@ -14,7 +14,7 @@ const Cover = ({ data }) => {
         </a>
       </div>
       <div className={styles.picblock}>
-        <Image src={profilePic} className={styles.pic} alt="Vladislav Pavlov" />
+        <Image src={profilePic} className={styles.pic} alt="Profile picture" />
         <div className={`${styles.rec} ${styles.rec_top}`}></div>
         <div className={`${styles.rec} ${styles.rec_bottom}`}></div>
         <div className={styles.rotator}></div>
