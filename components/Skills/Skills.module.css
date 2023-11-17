@@ -1,0 +1,28 @@
+.container {
+  padding: 120px 100px 68px;
+  display: grid;
+  row-gap: 64px;
+  column-gap: 80px;
+  grid-template-columns: 1fr 1fr;
+}
+
+@media screen and (min-width: 1282px) {
+  .container {
+    padding: 120px 200px 68px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    padding: 120px 50px 68px;
+    display: grid;
+    row-gap: 90px;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .container {
+    padding: 65px 85px 68px 40px;
+  }
+}

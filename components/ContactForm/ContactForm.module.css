@@ -1,0 +1,112 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+.input {
+  min-width: 530px;
+  outline: none;
+  border: 0;
+  background-color: #f3f3f3;
+  padding: 24px 33px 19px;
+  margin: 0;
+  font-family: "Golos Text";
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  border: 1px solid #f3f3f3;
+}
+
+.inputerr {
+  border: 1px solid #f3afa8;
+}
+
+.spanerr {
+  min-height: 16px;
+  padding: 4px 0 2px;
+  color: #ff6250;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.message {
+  min-width: 530px;
+  outline: none;
+  border: 0;
+  background-color: #f3f3f3;
+  padding: 33px 33px 28px;
+  margin: 0 0 44px;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  border: 1px solid #f3f3f3;
+}
+
+.messageerr {
+  border: 1px solid #f3afa8;
+}
+
+.button {
+  border: none;
+  width: 235px;
+  padding: 25px 0;
+  text-align: center;
+  font-family: var(--font-sofia);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ffffff;
+  background-color: #2d2d2d;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.9;
+  transition: opacity 0.3s;
+}
+
+@media screen and (max-width: 1238px) {
+  .input {
+    min-width: 430px;
+  }
+  .message {
+    min-width: 430px;
+  }
+}
+
+@media screen and (max-width: 1138px) {
+  .input {
+    min-width: 330px;
+  }
+  .message {
+    min-width: 330px;
+  }
+}
+
+@media screen and (max-width: 1038px) {
+  .container {
+    margin-left: 0;
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .input {
+    min-width: 0;
+  }
+  .message {
+    min-width: 0;
+  }
+}
+
+@media screen and (max-width: 418px) {
+  .button {
+    align-self: flex-start;
+  }
+}
